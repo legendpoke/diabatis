@@ -1,0 +1,10 @@
+run the project in command prompt
+step:
+1) activate the environment folder
+    use this command:
+    project\Scripts\activate
+2) set api key :
+    use the api key given in the api_key.txt file 
+    copy it and paste on the command prompt 
+3) run the main file 
+    python solution.py

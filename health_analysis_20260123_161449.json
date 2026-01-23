@@ -1,0 +1,93 @@
+{
+  "patient_info": {
+    "name": "ayan",
+    "age": 19,
+    "gender": "M",
+    "height": "175.0 cm",
+    "weight": "60.0 kg",
+    "bmi": 19.6,
+    "existing_conditions": "no",
+    "physical_activity_hours": 0.0,
+    "smoking": 0,
+    "family_history": 0,
+    "symptoms": "more sleep"
+  },
+  "medical_data": {
+    "age": 19,
+    "bmi": 19.6,
+    "family_history": 0,
+    "smoking": 0,
+    "physical_activity_hours": 0.0,
+    "blood_pressure_systolic": 130,
+    "blood_pressure_diastolic": 85,
+    "hba1c": 5.5,
+    "fasting_glucose": 95,
+    "cholesterol_total": 200,
+    "hdl": 45,
+    "ldl": 120,
+    "triglycerides": 150
+  },
+  "ml_prediction": {
+    "risk_score": 0.10283198149233432,
+    "confidence": 0.7943360370153314,
+    "risk_level": "Low",
+    "feature_importance": {
+      "age": 0.1349337422609364,
+      "bmi": 0.18869301018792534,
+      "blood_pressure_systolic": 0.07737296302185837,
+      "blood_pressure_diastolic": 0.01970406239307609,
+      "hba1c": 0.23457467648049027,
+      "fasting_glucose": 0.07960578858533245,
+      "cholesterol_total": 0.01028945858046311,
+      "hdl": 0.015240705813060406,
+      "ldl": 0.02169539240688667,
+      "triglycerides": 0.018928913889068325,
+      "family_history": 0.07970681830957953,
+      "smoking": 0.018128707119478796,
+      "physical_activity_hours": 0.10112576095184428
+    },
+    "prediction_date": "2026-01-23T16:13:55.554148"
+  },
+  "counterfactuals": [
+    {
+      "factor": "physical_activity_hours",
+      "current_value": 0.0,
+      "target_value": 5,
+      "risk_reduction": 0.10204630381863448,
+      "new_risk_score": 0.0007856776736998328
+    }
+  ],
+  "symptom_analysis": null,
+  "structured_symptom_analysis": null,
+  "clinician_report": "**Clinical Report**\n\n**1. RISK SUMMARY**  \nThe patient, a 19-year-old with a low risk score of 0.10 and a confidence level of 79.4%, is categorized as having a low risk for diabetes. Key contributing factors include a slightly elevated HbA1c of 5.5% and a fasting glucose level of 95 mg/dL, which are indicative of potential glucose metabolism issues.\n\n**2. SYMPTOM-DISEASE CORRELATION**  \nCurrently, the patient exhibits no overt symptoms of diabetes; however, the elevated HbA1c and fasting glucose levels suggest a predisposition to impaired glucose tolerance. Other conditions to consider include metabolic syndrome, particularly given the borderline cholesterol levels and the patient's low physical activity.\n\n**3. MODIFIABLE RISK DRIVERS**  \n1. **Physical Activity**: Increasing physical activity to 5 hours per week could significantly reduce the risk score to 0.0008, indicating a substantial improvement in metabolic health.\n2. **Dietary Modifications**: Implementing a balanced diet rich in whole grains, fruits, and vegetables could further improve glucose metabolism and lipid profiles.\n3. **Weight Management**: Although the patient\u2019s BMI is within the normal range, maintaining a healthy weight through lifestyle changes can help mitigate future risk factors.\n\n**4. RECOMMENDED ACTIONS**  \n- **Immediate Tests/Referrals**: Consider referral to a nutritionist for dietary counseling and a fitness specialist for a tailored exercise program. Monitor HbA1c and fasting glucose levels every 3-6 months.\n- **Lifestyle Intervention Priorities**: Prioritize increasing physical activity to at least 150 minutes of moderate-intensity exercise weekly and implementing dietary changes to improve overall health.\n- **Follow-Up Timeline**: Schedule a follow-up appointment in 3 months to assess adherence to lifestyle changes and re-evaluate metabolic parameters.\n\n**5. CLINICAL NOTES**  \nNo immediate red flags or urgent concerns were identified. It is essential to engage the patient in shared decision-making, discussing the importance of lifestyle modifications and their impact on long-term health outcomes. Emphasize the significance of regular monitoring and proactive health management to prevent the onset of diabetes and related conditions.",
+  "patient_explanation": "### Understanding Your Symptoms\n\nYou\u2019re doing a great job by taking a look at your health! It\u2019s important to understand what your body is telling you. Right now, you don\u2019t have any symptoms that indicate diabetes, but some of your numbers suggest that we should keep an eye on things. For example, your blood sugar levels are in a range that\u2019s close to what we call \"pre-diabetes.\" This means we want to be proactive and make some changes to keep your blood sugar in a healthy range.\n\n### Your Health Status\n\nLet\u2019s break down some of your health numbers:\n\n- **BMI (Body Mass Index):** Your BMI is 19.6, which is considered healthy.\n- **Blood Pressure:** Your blood pressure is 130/85. This is on the higher side of normal, so we want to monitor it.\n- **A1C and Fasting Glucose:** Your A1C is 5.5% and fasting glucose is 95 mg/dL. These numbers are close to the higher end of normal, which is why we\u2019re paying attention to them.\n- **Cholesterol:** Your total cholesterol is 200 mg/dL. This is something we want to keep an eye on as well.\n\nWe check these numbers to understand your overall health and to catch any potential issues early.\n\n### Your Diabetes Risk\n\nRight now, your risk for diabetes is low, which is good news! This means you have a good chance of staying healthy if we make some changes. Your risk score is low, but it\u2019s important to remember that this is something we can manage together. With the right steps, you can keep your risk low and even improve your health.\n\n### Other Health Considerations\n\nWhile your current numbers are mostly in a healthy range, it\u2019s good to know that some of these factors can also relate to other health conditions, like heart disease. If you ever feel unusual symptoms, like chest pain or extreme fatigue, it\u2019s important to seek care right away.\n\n### What You Can Do\n\nHere are three concrete changes you can make to help improve your health:\n\n1. **Increase Physical Activity:** Right now, you\u2019re not doing any physical activity. Aim for at least 5 hours a week. This could be as simple as walking, biking, or dancing. Regular activity helps lower blood sugar levels and improves your heart health.\n\n2. **Eat a Balanced Diet:** Focus on eating more fruits, vegetables, whole grains, and lean proteins. This will help keep your blood sugar steady and improve your cholesterol levels.\n\n3. **Monitor Your Health:** Keep track of your numbers, like blood pressure and blood sugar, and have regular check-ups with your doctor. This will help you stay informed about your health.\n\n### Next Steps\n\nYour doctor will likely want to check your health again in a few months to see how these changes are working. They might suggest regular check-ups to monitor your blood pressure and cholesterol levels. Remember, you\u2019re not alone in this journey. Your healthcare team is here to support you every step of the way!\n\nBy making these small changes, you\u2019re taking control of your health and setting yourself up for a bright future. You\u2019ve got this!",
+  "intervention_plan": {
+    "immediate_actions": [
+      "Schedule a consultation with a healthcare provider to discuss current health status and risk factors.",
+      "Educate the patient about the importance of physical activity and its impact on diabetes risk."
+    ],
+    "short_term_goals": [
+      "Increase physical activity to at least 5 hours per week within the next 3 months.",
+      "Monitor blood pressure and cholesterol levels regularly, aiming for optimal ranges."
+    ],
+    "lifestyle_changes": [
+      "Incorporate regular aerobic and strength-training exercises into daily routine.",
+      "Adopt a balanced diet rich in whole grains, fruits, vegetables, and lean proteins while reducing processed foods."
+    ],
+    "monitoring_plan": [
+      "Check fasting glucose levels every 3 months.",
+      "Schedule HbA1c testing every 6 months to track long-term glucose control.",
+      "Regularly monitor blood pressure and lipid levels at least once a year."
+    ],
+    "red_flags": [
+      "Symptoms of high blood sugar such as increased thirst, frequent urination, fatigue, or blurred vision.",
+      "Significant weight changes or unusual fatigue."
+    ],
+    "specialist_referrals": [
+      "Refer to a registered dietitian for personalized nutrition counseling.",
+      "Consider referral to a physical therapist for exercise guidance if needed."
+    ],
+    "urgent_care_needed": false
+  },
+  "analysis_timestamp": "2026-01-23T16:14:35.727531"
+}

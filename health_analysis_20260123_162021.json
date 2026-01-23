@@ -1,0 +1,87 @@
+{
+  "patient_info": {
+    "name": "adit",
+    "age": 19,
+    "gender": "M",
+    "height": "180.0 cm",
+    "weight": "65.0 kg",
+    "bmi": 20.1,
+    "existing_conditions": "no",
+    "physical_activity_hours": 1.0,
+    "smoking": 0,
+    "family_history": 0,
+    "symptoms": "fatigue"
+  },
+  "medical_data": {
+    "age": 19,
+    "bmi": 20.1,
+    "family_history": 0,
+    "smoking": 0,
+    "physical_activity_hours": 1.0,
+    "blood_pressure_systolic": 130,
+    "blood_pressure_diastolic": 85,
+    "hba1c": 5.5,
+    "fasting_glucose": 95,
+    "cholesterol_total": 200,
+    "hdl": 45,
+    "ldl": 120,
+    "triglycerides": 150
+  },
+  "ml_prediction": {
+    "risk_score": 0.006075967917558185,
+    "confidence": 0.95,
+    "risk_level": "Low",
+    "feature_importance": {
+      "age": 0.1349337422609364,
+      "bmi": 0.18869301018792534,
+      "blood_pressure_systolic": 0.07737296302185837,
+      "blood_pressure_diastolic": 0.01970406239307609,
+      "hba1c": 0.23457467648049027,
+      "fasting_glucose": 0.07960578858533245,
+      "cholesterol_total": 0.01028945858046311,
+      "hdl": 0.015240705813060406,
+      "ldl": 0.02169539240688667,
+      "triglycerides": 0.018928913889068325,
+      "family_history": 0.07970681830957953,
+      "smoking": 0.018128707119478796,
+      "physical_activity_hours": 0.10112576095184428
+    },
+    "prediction_date": "2026-01-23T16:19:28.933738"
+  },
+  "counterfactuals": [],
+  "symptom_analysis": null,
+  "structured_symptom_analysis": null,
+  "clinician_report": "### Clinical Report\n\n**1. RISK SUMMARY**  \nThe patient is assessed to have a low risk of developing diabetes, with a risk score of 0.006 and a confidence level of 95%. Key contributing factors include a normal HbA1c level (5.5%) and fasting glucose (95 mg/dL), indicating good glycemic control, while a BMI of 20.1 and low physical activity hours (1.0 hour/week) are notable risk factors that could be improved.\n\n**2. SYMPTOM-DISEASE CORRELATION**  \nThe patient's current parameters do not indicate symptoms directly correlating with diabetes risk; however, the HbA1c and fasting glucose levels are within normal ranges. Other potential conditions to consider include metabolic syndrome, given the borderline cholesterol levels (total cholesterol at 200 mg/dL and LDL at 120 mg/dL) and triglycerides at 150 mg/dL, which could warrant further evaluation.\n\n**3. MODIFIABLE RISK DRIVERS**  \n1. **Physical Activity**: Increasing physical activity to at least 150 minutes per week could significantly improve insulin sensitivity and overall metabolic health.\n2. **Dietary Modifications**: Implementing a balanced diet rich in whole grains, fruits, vegetables, and healthy fats may help lower cholesterol levels and improve overall cardiovascular health.\n3. **Weight Management**: Although the patient has a normal BMI, maintaining a healthy weight through lifestyle changes can further reduce the risk of developing insulin resistance and metabolic syndrome.\n\n**4. RECOMMENDED ACTIONS**  \n- **Immediate Tests/Referrals**: Consider referral to a nutritionist for dietary counseling and a fitness trainer for a personalized exercise program. Monitor lipid profile and consider a follow-up lipid panel in 6 months.\n- **Lifestyle Intervention Priorities**: Prioritize increasing physical activity and dietary modifications. Encourage the patient to engage in regular aerobic and resistance training exercises.\n- **Follow-Up Timeline**: Schedule a follow-up appointment in 3-6 months to reassess risk factors, review lifestyle changes, and repeat fasting glucose and lipid panels.\n\n**5. CLINICAL NOTES**  \nNo immediate red flags or urgent concerns are noted. It is essential to engage the patient in shared decision-making regarding lifestyle changes and to discuss the importance of regular monitoring of their metabolic health. Emphasize the role of family history and personal health behaviors in long-term health outcomes.",
+  "patient_explanation": "### Understanding Your Symptoms\n\nYou\u2019re doing a great job by taking a look at your health! Right now, you don\u2019t have any symptoms that are concerning. However, it\u2019s good to know that your health numbers can give us clues about your risk for diabetes. Diabetes is a condition where your body has trouble using sugar for energy. Keeping an eye on your health can help us catch any issues early.\n\n### Your Health Status\n\nLet\u2019s break down your health numbers:\n\n- **Age:** 19 years old, which is great! Younger age often means lower risk.\n- **BMI:** 20.1, which is in a healthy range.\n- **Blood Pressure:** Your numbers are 130/85. This is a bit higher than ideal but not too concerning at your age.\n- **HbA1c:** At 5.5%, this is normal and shows good blood sugar control.\n- **Fasting Glucose:** 95 mg/dL is also within a healthy range.\n- **Cholesterol:** Your total cholesterol is 200 mg/dL. This is on the higher side, but we can work on it together.\n\nWe check these numbers to see how well your body is doing and to catch any potential problems early.\n\n### Your Diabetes Risk\n\nGood news! Your overall risk for diabetes is low. This means that, right now, you\u2019re in a good place. However, it\u2019s important to keep it that way. With some small changes, you can lower your risk even more. Remember, diabetes is preventable and manageable, and you have the power to make a difference!\n\n### Other Health Considerations\n\nWhile your current numbers are looking good, it\u2019s always smart to keep an eye on your overall health. Sometimes, high blood pressure or cholesterol can lead to other issues, like heart disease. If you ever feel unwell, like having chest pain or severe headaches, it\u2019s important to seek care right away.\n\n### What You Can Do\n\nHere are three changes you can make that will help you stay healthy:\n\n1. **Increase Physical Activity:** Aim for at least 30 minutes of exercise most days. This can be walking, biking, or any activity you enjoy. Exercise helps lower blood sugar levels and improves heart health.\n\n2. **Eat a Balanced Diet:** Focus on whole foods like fruits, vegetables, whole grains, and lean proteins. This can help manage your cholesterol and blood sugar levels.\n\n3. **Stay Hydrated:** Drink plenty of water throughout the day. Staying hydrated helps your body function better and can help with overall health.\n\nStart with small goals, like walking for 10 minutes a day or adding one extra serving of vegetables to your meals. You can build from there!\n\n### Next Steps\n\nWhen you visit your doctor next, they will review these numbers with you and may suggest some follow-up tests or lifestyle changes. It\u2019s a good idea to check in every 6 months to a year to keep track of your health. Your doctor is there to support you and answer any questions you have.\n\nYou\u2019re taking important steps for your health, and that\u2019s something to be proud of! Keep up the great work!",
+  "intervention_plan": {
+    "immediate_actions": [
+      "Educate the patient about diabetes risk factors and the importance of maintaining a healthy lifestyle.",
+      "Schedule a follow-up appointment in 6 months to reassess risk factors."
+    ],
+    "short_term_goals": [
+      "Increase physical activity to at least 3 hours per week.",
+      "Achieve a fasting glucose level below 90 mg/dL within 6 months."
+    ],
+    "lifestyle_changes": [
+      "Incorporate a balanced diet rich in fruits, vegetables, whole grains, and lean proteins.",
+      "Reduce intake of saturated fats and sugars.",
+      "Encourage regular physical activity, such as walking, jogging, or sports."
+    ],
+    "monitoring_plan": [
+      "Check fasting glucose levels every 3 months.",
+      "Monitor HbA1c levels annually or as recommended by the healthcare provider.",
+      "Regularly assess blood pressure and lipid levels every 6 months."
+    ],
+    "red_flags": [
+      "Symptoms of hyperglycemia (increased thirst, frequent urination, fatigue).",
+      "Significant weight changes (gain or loss).",
+      "Any new cardiovascular symptoms (chest pain, shortness of breath)."
+    ],
+    "specialist_referrals": [
+      "Refer to a registered dietitian for personalized nutrition counseling.",
+      "Consider referral to an endocrinologist if glucose levels worsen."
+    ],
+    "urgent_care_needed": false
+  },
+  "analysis_timestamp": "2026-01-23T16:20:14.014668"
+}

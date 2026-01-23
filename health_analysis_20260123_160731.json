@@ -1,0 +1,100 @@
+{
+  "patient_info": {
+    "name": "dhruv",
+    "age": 19,
+    "gender": "M",
+    "height": "170.0 cm",
+    "weight": "80.0 kg",
+    "bmi": 27.7,
+    "existing_conditions": "None",
+    "physical_activity_hours": 1.0,
+    "smoking": 0,
+    "family_history": 0,
+    "symptoms": "stressed,tired,fever,cold,knee pain"
+  },
+  "medical_data": {
+    "age": 19,
+    "bmi": 27.7,
+    "family_history": 0,
+    "smoking": 0,
+    "physical_activity_hours": 1.0,
+    "blood_pressure_systolic": 130,
+    "blood_pressure_diastolic": 85,
+    "hba1c": 6.0,
+    "fasting_glucose": 105,
+    "cholesterol_total": 200,
+    "hdl": 45,
+    "ldl": 120,
+    "triglycerides": 150
+  },
+  "ml_prediction": {
+    "risk_score": 0.8773244303848061,
+    "confidence": 0.7546488607696122,
+    "risk_level": "High",
+    "feature_importance": {
+      "age": 0.1349337422609364,
+      "bmi": 0.18869301018792534,
+      "blood_pressure_systolic": 0.07737296302185837,
+      "blood_pressure_diastolic": 0.01970406239307609,
+      "hba1c": 0.23457467648049027,
+      "fasting_glucose": 0.07960578858533245,
+      "cholesterol_total": 0.01028945858046311,
+      "hdl": 0.015240705813060406,
+      "ldl": 0.02169539240688667,
+      "triglycerides": 0.018928913889068325,
+      "family_history": 0.07970681830957953,
+      "smoking": 0.018128707119478796,
+      "physical_activity_hours": 0.10112576095184428
+    },
+    "prediction_date": "2026-01-23T16:06:42.395552"
+  },
+  "counterfactuals": [
+    {
+      "factor": "hba1c",
+      "current_value": 6.0,
+      "target_value": 5.5,
+      "risk_reduction": 0.8702514551698735,
+      "new_risk_score": 0.0070729752149326815
+    },
+    {
+      "factor": "physical_activity_hours",
+      "current_value": 1.0,
+      "target_value": 5,
+      "risk_reduction": 0.5679284674033129,
+      "new_risk_score": 0.30939596298149324
+    }
+  ],
+  "symptom_analysis": null,
+  "structured_symptom_analysis": null,
+  "clinician_report": "**Clinical Report**\n\n**1. RISK SUMMARY**  \nThe patient, a 19-year-old individual, presents with a high risk score of 0.877, with a confidence level of 75.5%. Key contributing factors to this elevated risk include an HbA1c of 6.0%, a BMI of 27.7, and a fasting glucose level of 105 mg/dL, indicating potential prediabetes.\n\n**2. SYMPTOM-DISEASE CORRELATION**  \nThe patient's elevated HbA1c and fasting glucose levels are indicative of impaired glucose metabolism, aligning with the risk profile for type 2 diabetes mellitus. Additionally, the patient's BMI categorizes them as overweight, which is a known risk factor for diabetes and cardiovascular disease. Other conditions to consider include metabolic syndrome and insulin resistance, given the patient's lipid profile and blood pressure readings.\n\n**3. MODIFIABLE RISK DRIVERS**  \n1. **HbA1c Reduction**: Targeting a reduction from 6.0% to 5.5% could significantly lower the risk score to 0.007, representing a risk reduction of approximately 87%.  \n2. **Increase in Physical Activity**: Increasing physical activity from 1 hour to 5 hours per week could reduce the risk score to 0.309, with a risk reduction of about 57.7%.  \n3. **Weight Management**: Although not explicitly analyzed, achieving a BMI within the normal range through dietary changes and exercise would likely further decrease diabetes risk.\n\n**4. RECOMMENDED ACTIONS**  \n- **Immediate Tests/Referrals**: Consider referral to a registered dietitian for nutritional counseling and a diabetes educator for lifestyle modification strategies. Monitor fasting glucose and HbA1c levels every 3 months.  \n- **Lifestyle Intervention Priorities**: Prioritize increasing physical activity to at least 150 minutes of moderate-intensity exercise weekly. Implement dietary modifications focusing on low glycemic index foods and weight loss strategies.  \n- **Follow-up Timeline**: Schedule a follow-up appointment in 3 months to reassess HbA1c and fasting glucose levels, and evaluate progress in lifestyle changes.\n\n**5. CLINICAL NOTES**  \nNo immediate red flags or urgent concerns were noted; however, the patient's elevated risk warrants close monitoring. Shared decision-making should involve discussing the implications of lifestyle changes and the potential need for pharmacotherapy if lifestyle modifications are insufficient in managing glucose levels. Emphasize the importance of regular follow-ups and adherence to lifestyle recommendations to mitigate long-term complications.",
+  "patient_explanation": "### Understanding Your Symptoms\n\nYou\u2019re doing a great job by taking a closer look at your health! Your symptoms, like higher blood sugar levels, might suggest that your body is having trouble managing sugar. This can be linked to diabetes risk, which means your body may not be using insulin effectively. It\u2019s important to understand this so we can work together to keep you healthy.\n\n### Your Health Status\n\nLet\u2019s break down your health numbers in a simple way:\n\n- **BMI (Body Mass Index)**: Yours is 27.7, which is a bit higher than the healthy range. This can increase your risk for health issues.\n- **Blood Pressure**: Your blood pressure is 130/85, which is on the higher side of normal. Keeping it in check is important for your heart health.\n- **HbA1c**: This is a measure of your blood sugar over time. Yours is 6.0, which is higher than what we want. Lowering this can help reduce your diabetes risk.\n- **Fasting Glucose**: At 105, this is also a bit high. It\u2019s a sign we need to pay attention to your blood sugar levels.\n- **Cholesterol**: Your total cholesterol is 200, which is at the upper limit of what\u2019s considered healthy.\n\nWe check these numbers to understand how your body is doing and to catch any potential problems early.\n\n### Your Diabetes Risk\n\nRight now, your risk level is considered high. This means there\u2019s a greater chance you could develop diabetes in the future. But the good news is that this is preventable and manageable! With some changes, you can lower your risk significantly.\n\n### Other Health Considerations\n\nYour current health status might also suggest a risk for heart disease, especially with your blood pressure and cholesterol levels. It\u2019s important to keep an eye on these as well. If you ever feel symptoms like chest pain, shortness of breath, or severe headaches, please seek immediate care.\n\n### What You Can Do\n\nHere are the top three changes that can help you the most:\n\n1. **Lower Your HbA1c**: Aim to reduce it from 6.0 to 5.5. This can lower your risk score significantly. You can achieve this by making healthier food choices and being more active.\n   \n2. **Increase Physical Activity**: Right now, you\u2019re getting about 1 hour of exercise a week. Try to increase this to 5 hours. This can help lower your blood sugar levels and improve your overall health.\n\n3. **Focus on Healthy Eating**: Eating more fruits, vegetables, whole grains, and lean proteins can help manage your weight and blood sugar levels.\n\nSetting realistic goals, like adding an extra 30 minutes of walking each day or swapping out sugary snacks for fruit, can make a big difference!\n\n### Next Steps\n\nYour doctor will want to check in with you regularly to monitor your progress. Expect to have follow-up appointments to review your numbers and discuss how you\u2019re feeling. Setting a timeline for these check-ins, like every 3 months, can help keep you on track.\n\nRemember, you have the power to make these changes, and I\u2019m here to support you every step of the way!",
+  "intervention_plan": {
+    "immediate_actions": [
+      "Schedule an appointment with a healthcare provider to discuss diabetes risk and management.",
+      "Obtain a referral for a nutritionist or dietitian."
+    ],
+    "short_term_goals": [
+      "Reduce HbA1c from 6.0% to 5.5% within the next 3-6 months.",
+      "Increase physical activity to at least 5 hours per week within the next month."
+    ],
+    "lifestyle_changes": [
+      "Adopt a balanced diet focusing on whole foods, low in refined sugars and saturated fats.",
+      "Incorporate regular physical activity, such as walking, jogging, or joining a fitness class."
+    ],
+    "monitoring_plan": [
+      "Check fasting glucose levels every month.",
+      "Monitor HbA1c levels every 3 months until target is achieved, then every 6 months.",
+      "Track physical activity and dietary intake weekly."
+    ],
+    "red_flags": [
+      "Symptoms of hyperglycemia such as excessive thirst, frequent urination, or fatigue.",
+      "Signs of hypoglycemia such as dizziness, sweating, or confusion."
+    ],
+    "specialist_referrals": [
+      "Endocrinologist for diabetes management.",
+      "Nutritionist for dietary planning."
+    ],
+    "urgent_care_needed": false
+  },
+  "analysis_timestamp": "2026-01-23T16:07:11.509146"
+}
