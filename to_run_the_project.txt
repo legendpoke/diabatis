@@ -1,4 +1,5 @@
 run the project in command prompt
+download the requirements which are mentioned in the requirement.txt
 step:
 1) activate the environment folder
     use this command:
