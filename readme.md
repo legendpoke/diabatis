@@ -1,4 +1,4 @@
-# 🩺 Comprehensive Health Assessment System
+# Comprehensive Health Assessment System
 
 **Diabetes Risk Prediction + Symptom Analysis + AI Reports + PDF Generation**
 
@@ -6,14 +6,14 @@ An end-to-end **Clinical Decision Support System (CDSS)** that combines **Machin
 
 ---
 
-## 🚨 Disclaimer (IMPORTANT)
+## Disclaimer (IMPORTANT)
 This project is for **educational and research purposes only**.  
 It **does NOT provide medical diagnosis or treatment**.  
 Always consult qualified healthcare professionals for medical decisions.
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 Diabetes is a rapidly growing global health concern. Early identification, risk factor analysis, and patient education are critical but often limited by:
 - Lack of explainable AI models
 - Poor symptom correlation
@@ -22,7 +22,7 @@ Diabetes is a rapidly growing global health concern. Early identification, risk 
 
 ---
 
-## 💡 Solution Overview
+## Solution Overview
 This system provides a **comprehensive AI-powered health assessment workflow** that:
 - Predicts diabetes risk using Machine Learning
 - Analyzes free-text symptoms using GenAI
@@ -32,7 +32,7 @@ This system provides a **comprehensive AI-powered health assessment workflow** t
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### 🔬 Machine Learning
 - Gradient Boosting–based diabetes risk prediction
@@ -40,7 +40,7 @@ This system provides a **comprehensive AI-powered health assessment workflow** t
 - Feature importance analysis
 - Counterfactual “what-if” risk reduction scenarios
 
-### 🧠 Generative AI (LangChain + OpenAI)
+### Generative AI (LangChain + OpenAI)
 - Symptom-based disease pattern analysis
 - Differential diagnosis suggestions
 - Urgency assessment (Emergency / Urgent / Routine)
@@ -48,18 +48,18 @@ This system provides a **comprehensive AI-powered health assessment workflow** t
 - Patient-friendly health explanations
 - Structured JSON intervention plans
 
-### 📄 Reporting
+###  Reporting
 - Unicode-safe PDF report generation
 - Clinically formatted, readable output
 - Includes disclaimer and audit-friendly structure
 
-### 🧪 Dual Mode
+###  Dual Mode
 - **Full Mode** (with OpenAI API key)
 - **Simplified Mode** (ML-only, no AI dependency)
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```text
 User Input
